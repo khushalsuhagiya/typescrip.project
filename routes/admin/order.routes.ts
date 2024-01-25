@@ -1,5 +1,5 @@
 import express from 'express';
-import { tokenAdmin } from '../../helpers/tokenAdmin';
+import { tokenAdmin } from '../../helpers/tokenadmin';
 import { showAllOrder, specificOrder } from '../../controller/admin/order.controller';
 const orderRoute = express.Router();
 

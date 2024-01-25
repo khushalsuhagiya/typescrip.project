@@ -1,5 +1,5 @@
 import express from 'express'
-import { tokenAdmin } from '../../helpers/tokenAdmin';
+import { tokenAdmin } from '../../helpers/tokenadmin';
 import { showAllCart, showCart } from '../../controller/admin/cart.controller';
 const cartRoute = express.Router();
 

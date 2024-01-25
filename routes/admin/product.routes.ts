@@ -1,5 +1,5 @@
 import express from "express";
-import { tokenAdmin } from "../../helpers/tokenAdmin";
+import { tokenAdmin } from "../../helpers/tokenadmin";
 import { createProduct, deleteProduct, getAllProduct, specificProduct, updateProduct} from "../../controller/admin/product.controller"
 import upload from "../../helpers/imageUplode";
 const productRoute = express.Router();

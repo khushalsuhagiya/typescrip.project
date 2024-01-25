@@ -1,5 +1,5 @@
 import express from "express";
-import { tokenAdmin } from "../../helpers/tokenAdmin";
+import { tokenAdmin } from "../../helpers/tokenadmin";
 import { changePassword, deleteProfile, getProfile, updateProfile } from "../../controller/admin/admin.controller";
 const adminRoute = express.Router();
 
